@@ -1,0 +1,41 @@
+/* contextual.css */
+
+
+.dj-color-paper-light { color: var(--dj-palette-white); }  /* Slightly darker neutral paper background color */
+.dj-color-paper-medium { color: var(--dj-palette-neutral015); }  /* Slightly darker neutral paper background color */
+.dj-color-paper-dark { color: var(--dj-palette-neutral025); } /* Slightly darker neutral paper background  color */
+.dj-color-paper-deep { color: var(--dj-palette-primary050); } /* Slightly darker neutral paper background  color */
+
+.dj-color-ink-subtle { color: var(--dj-palette-neutral085); } /* Text and icons in an inactive (disabled) state */
+.dj-color-ink-light { color: var(--dj-palette-neutral400); } /* Subheadlines, labels, secondary copy */
+.dj-color-ink-medium { color: var(--dj-palette-neutral600); } /* Body and paragraph text */
+.dj-color-ink-dark { color: var(--dj-palette-neutral800); } /* Headlines */
+
+.dj-color-ink-error-subtle { color: var(--dj-palette-negative085); } /* Text and icons in an inactive (disabled) state */
+.dj-color-ink-error-light { color: var(--dj-palette-negative400); } /* Subheadlines, labels, secondary copy */
+.dj-color-ink-error-medium { color: var(--dj-palette-negative600); } /* Body and paragraph text */
+.dj-color-ink-error-dark { color: var(--dj-palette-negative800); } /* Headlines */
+
+.dj-color-ink-success-subtle { color: var(--dj-palette-positive085); } /* Text and icons in an inactive (disabled) state */
+.dj-color-ink-success-light { color: var(--dj-palette-positive400); } /* Subheadlines, labels, secondary copy */
+.dj-color-ink-success-medium { color: var(--dj-palette-positive600); } /* Body and paragraph text */
+.dj-color-ink-success-dark { color: var(--dj-palette-positive800); } /* Headlines */
+
+.dj-color-ink-brand-subtle { color: var(--dj-palette-primary085); } /* Brand text and icons in an inactive (disabled) state */
+.dj-color-ink-brand-light { color: var(--dj-palette-primary400); } /* Brand subheadlines, labels, secondary copy */
+.dj-color-ink-brand-medium { color: var(--dj-palette-primary600); } /* Brand body and paragraph text */
+.dj-color-ink-brand-dark { color: var(--dj-palette-primary800); } /* Headlines */
+
+.dj-color-paper-accent-light { color: var(--dj-palette-white); } /* Slightly darker accent paper background color */
+.dj-color-paper-accent-medium { color: var(--dj-palette-primary015); } /* Slightly darker accent paper background color */
+.dj-color-paper-accent-dark { color: var(--dj-palette-primary025); }  /* Slightly darker accent paper background color */
+.dj-color-paper-accent-deep { color: var(--dj-palette-primary050); }  /* Slightly darker accent paper background color */
+
+.dj-color-line-subtle { color: var(--dj-palette-neutral025); } /* Neutral lines around components and separators */
+.dj-color-line-light { color: var(--dj-palette-neutral050); }  /* Neutral lines around components and separators */
+.dj-color-line-medium { color: var(--dj-palette-neutral075); }  /* Neutral lines around components and separators */
+.dj-color-line-dark { color: var(--dj-palette-neutral085); }  /* Neutral lines around components and separators */
+
+.dj-color-bkg-head { color: var(--dj-palette-neutral600); } /* Designers choice of background of header components */
+.dj-color-bkg-subhead { color: var(--dj-palette-neutral800); } /* Designers choice of background of subhead components */
+.dj-color-bkg-foot { color: var(--dj-palette-neutral800); } /* Designers choice of background of footer components */
