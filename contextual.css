@@ -1,5 +1,13 @@
 /* contextual.css */
 
+/*
+    Divided into three catagories. Paper, Inka, and Filla
+
+    Paper: Surface backgrounds. They respond to changes in dark/light mode.
+    Ink: Always topmost. Used for typography/icons. Responds to dark/light mode when placed on paper, but not when placed on Fills.
+    Fill: Static colors (though midtones may change slightly , i.e. 400 to 300 for light/dark). Think buttons, header backgrounds
+*/
+
 
 .gnm-color-paper-light { color: var(--gnm-palette-white); }  /* The main background color for the app and choice of inverted text color */
 .gnm-color-paper-medium { color: var(--gnm-palette-neutral015); }  /* Slightly darker neutral paper background color */
@@ -31,11 +39,11 @@
 .gnm-color-ink-brand-medium { color: var(--gnm-palette-primary600); } /* Brand body and paragraph text */
 .gnm-color-ink-brand-dark { color: var(--gnm-palette-primary800); } /* Headlines */
 
-.gnm-color-line-subtle { color: var(--gnm-palette-neutral025); } /* Neutral lines around components and separators */
-.gnm-color-line-light { color: var(--gnm-palette-neutral050); }  /* Neutral lines around components and separators */
-.gnm-color-line-medium { color: var(--gnm-palette-neutral075); }  /* Neutral lines around components and separators */
-.gnm-color-line-dark { color: var(--gnm-palette-neutral085); }  /* Neutral lines around components and separators */
+.gnm-color-ink-line-subtle { color: var(--gnm-palette-neutral025); } /* Neutral lines around components and separators */
+.gnm-color-ink-line-light { color: var(--gnm-palette-neutral050); }  /* Neutral lines around components and separators */
+.gnm-color-ink-line-medium { color: var(--gnm-palette-neutral075); }  /* Neutral lines around components and separators */
+.gnm-color-ink0line-dark { color: var(--gnm-palette-neutral085); }  /* Neutral lines around components and separators */
 
-.gnm-color-bkg-head { color: var(--gnm-palette-neutral600); } /* Designers choice of background of header components */
-.gnm-color-bkg-subhead { color: var(--gnm-palette-neutral800); } /* Designers choice of background of subhead components */
-.gnm-color-bkg-foot { color: var(--gnm-palette-neutral800); } /* Designers choice of background of footer components */
+.gnm-color-fill-head { color: var(--gnm-palette-neutral600); } /* Designers choice of background of header components */
+.gnm-color-fill-subhead { color: var(--gnm-palette-neutral800); } /* Designers choice of background of subhead components */
+.gnm-color-fill-foot { color: var(--gnm-palette-neutral800); } /* Designers choice of background of footer components */
