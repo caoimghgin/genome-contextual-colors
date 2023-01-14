@@ -3,5 +3,5 @@ Contextual colors allows the creation of white-label design system components an
 
 #RULES
 1. All colors (palette and contextul) are prefixed with a two to three alpha representation of the design system name. Here, we'll prefix with 'Genome' or gnm.
-2. Pallete colors are identified with 'palette', or 'gnm-palette'. This is a signal to developers they should not directly reference in components.
-3. Contextual colors are identified with 'color', or 'gnm-color' and are preferred for consumption by components.
+2. Pallete colors are identified with [prefix]-'palette', or 'gnm-palette'. Pallete colors should not be directly referenced in components (should not see 'gnm-palette')
+3. Contextual colors are identified with [prefix]-'color', or 'gnm-color' and are preferred for consumption by components for white-label and mode support.
