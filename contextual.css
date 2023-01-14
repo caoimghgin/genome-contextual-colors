@@ -4,7 +4,7 @@
     Divided into three catagories. Paper, Inks, and Fills
 
     Paper: Surface backgrounds. They respond to changes in dark/light mode.
-    Ink: Always topmost, they are used for typography/icons. Responds to dark/light mode when placed on paper, but not when placed on Fills.
+    Ink: Always topmost, and used above Paper and Fills. Used for typography/icons. Responds to dark/light mode when placed on paper, but not when placed on Fills.
     Fill: Areas of color that overlay Paper and contain Inks. Think buttons, header/footer backgrounds.
 
     (Plenty to consider here, right now just first steps!)
