@@ -1,3 +1,5 @@
+@import "../../palette/gnm-palette.css";
+
 /* contextual.css */
 
 /*
@@ -10,12 +12,12 @@
     (Plenty to consider here, right now just first steps!)
 */
 
-.gnm-color-paper-light { color: var(--gnm-palette-white); }  /* The main background color for the app and choice of inverted text color */
+.gnm-color-paper-light { color: var(--gnm-palette-neutral000); }  /* The main background color for the app and choice of inverted text color */
 .gnm-color-paper-medium { color: var(--gnm-palette-neutral015); }  /* Slightly darker neutral paper background color */
 .gnm-color-paper-dark { color: var(--gnm-palette-neutral025); } /* Slightly darker neutral paper background  color */
 .gnm-color-paper-deep { color: var(--gnm-palette-primary050); } /* Slightly darker neutral paper background  color */
 
-.gnm-color-paper-accent-light { color: var(--gnm-palette-white); } /* The secondary background color for the app, typically a blue */
+.gnm-color-paper-accent-light { color: var(--gnm-palette-neutral000); } /* The secondary background color for the app, typically a blue */
 .gnm-color-paper-accent-medium { color: var(--gnm-palette-primary015); } /* Slightly darker accent paper background color */
 .gnm-color-paper-accent-dark { color: var(--gnm-palette-primary025); }  /* Slightly darker accent paper background color */
 .gnm-color-paper-accent-deep { color: var(--gnm-palette-primary050); }  /* Slightly darker accent paper background color */
