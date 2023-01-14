@@ -1,10 +1,15 @@
 /* contextual.css */
 
 
-.dj-color-paper-light { color: var(--dj-palette-white); }  /* Slightly darker neutral paper background color */
+.dj-color-paper-light { color: var(--dj-palette-white); }  /* The main background color for the app and choice of inverted text color */
 .dj-color-paper-medium { color: var(--dj-palette-neutral015); }  /* Slightly darker neutral paper background color */
 .dj-color-paper-dark { color: var(--dj-palette-neutral025); } /* Slightly darker neutral paper background  color */
 .dj-color-paper-deep { color: var(--dj-palette-primary050); } /* Slightly darker neutral paper background  color */
+
+.dj-color-paper-accent-light { color: var(--dj-palette-white); } /* The secondary background color for the app, typically a blue */
+.dj-color-paper-accent-medium { color: var(--dj-palette-primary015); } /* Slightly darker accent paper background color */
+.dj-color-paper-accent-dark { color: var(--dj-palette-primary025); }  /* Slightly darker accent paper background color */
+.dj-color-paper-accent-deep { color: var(--dj-palette-primary050); }  /* Slightly darker accent paper background color */
 
 .dj-color-ink-subtle { color: var(--dj-palette-neutral085); } /* Text and icons in an inactive (disabled) state */
 .dj-color-ink-light { color: var(--dj-palette-neutral400); } /* Subheadlines, labels, secondary copy */
@@ -25,11 +30,6 @@
 .dj-color-ink-brand-light { color: var(--dj-palette-primary400); } /* Brand subheadlines, labels, secondary copy */
 .dj-color-ink-brand-medium { color: var(--dj-palette-primary600); } /* Brand body and paragraph text */
 .dj-color-ink-brand-dark { color: var(--dj-palette-primary800); } /* Headlines */
-
-.dj-color-paper-accent-light { color: var(--dj-palette-white); } /* Slightly darker accent paper background color */
-.dj-color-paper-accent-medium { color: var(--dj-palette-primary015); } /* Slightly darker accent paper background color */
-.dj-color-paper-accent-dark { color: var(--dj-palette-primary025); }  /* Slightly darker accent paper background color */
-.dj-color-paper-accent-deep { color: var(--dj-palette-primary050); }  /* Slightly darker accent paper background color */
 
 .dj-color-line-subtle { color: var(--dj-palette-neutral025); } /* Neutral lines around components and separators */
 .dj-color-line-light { color: var(--dj-palette-neutral050); }  /* Neutral lines around components and separators */
