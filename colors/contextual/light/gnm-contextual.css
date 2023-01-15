@@ -48,20 +48,26 @@
     --gnm-color-ink-line-medium: var(--gnm-palette-neutral-075); /* Neutral lines around components and separators */
     --gnm-color-ink-line-dark: var(--gnm-palette-neutral-085); /* Neutral lines around components and separators */
 
-    --gnm-color-fill-head: var(--gnm-palette-neutral-600); /* Designers choice of background of header components */
-    --gnm-color-fill-subhead: var(--gnm-palette-neutral-800); /* Designers choice of background of subhead components */
-    --gnm-color-fill-foot: var(--gnm-palette-neutral-800); /* Designers choice of background of footer components */
+    --gnm-color-fill-header: var(--gnm-palette-neutral-600); /* Designers choice of background of header components */
+    --gnm-color-fill-subheader: var(--gnm-palette-neutral-800); /* Designers choice of background of subhead components */
+    --gnm-color-fill-footer: var(--gnm-palette-neutral-800); /* Designers choice of background of footer components */
 
-    --gnm-color-fill-button-primary-default: var(--gnm-palette-primary-400); /* Neutral lines around components and separators */
-    --gnm-color-fill-button-primary-hover: var(--gnm-palette-primary-600); /* Neutral lines around components and separators */
-    --gnm-color-fill-button-primary-active: var(--gnm-palette-primary-800); /* Neutral lines around components and separators */
-    --gnm-color-fill-button-primary-loading: var(--gnm-palette-primary-085); /* Neutral lines around components and separators */
-    --gnm-color-fill-button-primary-disabled: var(--gnm-palette-primary-085); /* Neutral lines around components and separators */
+    --gnm-color-fill-button-primary-default: var(--gnm-palette-primary-400); 
+    --gnm-color-fill-button-primary-hover: var(--gnm-palette-primary-600); 
+    --gnm-color-fill-button-primary-active: var(--gnm-palette-primary-800);
+    --gnm-color-fill-button-primary-loading: var(--gnm-palette-primary-085); 
+    --gnm-color-fill-button-primary-disabled: var(--gnm-palette-primary-085);
 
-    --gnm-color-fill-button-success-default: var(--gnm-palette-positive-400); /* Neutral lines around components and separators */
-    --gnm-color-fill-button-success-hover: var(--gnm-palette-positive-600); /* Neutral lines around components and separators */
-    --gnm-color-fill-button-success-active: var(--gnm-palette-positive-075); /* Neutral lines around components and separators */
-    --gnm-color-fill-button-success-loading: var(--gnm-palette-positive-085); /* Neutral lines around components and separators */
-    --gnm-color-fill-button-success-disabled: var(--gnm-palette-positive-085); /* Neutral lines around components and separators */
+    --gnm-color-fill-button-secondary-default: var(--gnm-palette-neutral-025); 
+    --gnm-color-fill-button-secondary-hover: var(--gnm-palette-neutral-050);
+    --gnm-color-fill-button-secondary-active: var(--gnm-palette-neutral-100);
+    --gnm-color-fill-button-secondary-loading: var(--gnm-palette-neutral-050); 
+    --gnm-color-fill-button-secondary-disabled: var(--gnm-palette-neutral-050); /* Use --gnm-color-ink-subtle on text/icons to indicate disabled state */
+
+    --gnm-color-fill-button-success-default: var(--gnm-palette-positive-400);
+    --gnm-color-fill-button-success-hover: var(--gnm-palette-positive-600);
+    --gnm-color-fill-button-success-active: var(--gnm-palette-positive-075);
+    --gnm-color-fill-button-success-loading: var(--gnm-palette-positive-085);
+    --gnm-color-fill-button-success-disabled: var(--gnm-palette-positive-085);
 
 }
