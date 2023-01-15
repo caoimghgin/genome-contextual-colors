@@ -1,3 +1,69 @@
 @import "../../palette/gnm-palette.css";
 
-/* TBD */
+/*
+light medium dark DOESN'T WORK. Rather we need to express this as contrast.
+
+levels (low, low medium, medium, medium medium, high-medium, high) of Quality as boolean sets
+
+THE CHALLENGE is how to use words to express contrast
+
+*/
+
+:root {
+
+
+
+    /* DARK MODE */
+    --gnm-color-paper-light: var(--gnm-palette-neutral-950); /* The main background color for the app and choice of inverted text color */
+    --gnm-color-paper-medium: var(--gnm-palette-neutral-900); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-dark: var(--gnm-palette-neutral-800); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-deep: var(--gnm-palette-neutral-700); /* Slightly darker neutral paper background color */
+
+    /* LIGHT MODE */
+    --gnm-color-paper-light: var(--gnm-palette-neutral-000); /* The main background color for the app and choice of inverted text color */
+    --gnm-color-paper-medium: var(--gnm-palette-neutral-015); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-dark: var(--gnm-palette-neutral-025); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-deep: var(--gnm-palette-neutral-050); /* Slightly darker neutral paper background color */
+
+    /* Does is make sense that -paper-light in lightMode is WHITE and in darkMode it's black? Or -paper-deep is neutral-050 in lightMode but neutral-700 in darkMode? 
+        I suspect not. Instead, we need to find language that experesses relative contrast when it regards the density of paper.
+    */
+
+    /* DARK MODE */
+    --gnm-color-paper-high_contrast: var(--gnm-palette-neutral-950); /* The main background color for the app and choice of inverted text color */
+    --gnm-color-paper-medium_contrast: var(--gnm-palette-neutral-900); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-mediumlow_contrast: var(--gnm-palette-neutral-800); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-low_contrast: var(--gnm-palette-neutral-700); /* Slightly darker neutral paper background color */
+
+    /* LIGHT MODE */
+    --gnm-color-paper-high_contrast: var(--gnm-palette-neutral-000); /* The main background color for the app and choice of inverted text color */
+    --gnm-color-paper-medium_contrast: var(--gnm-palette-neutral-015); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-mediumlow_contrast: var(--gnm-palette-neutral-025); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-low_contrast: var(--gnm-palette-neutral-050); /* Slightly darker neutral paper background color */
+
+    /* Its wordy but understandable! 
+
+    Are there any finer definitions between hight/medium/low? 'mediumlow' is killing me.
+    
+    Or, are there other ways to do the same thing? Maybe numbers? */
+
+
+    /* DARK MODE */
+    --gnm-color-paper-0: var(--gnm-palette-neutral-950); /* The main background color for the app and choice of inverted text color */
+    --gnm-color-paper-1: var(--gnm-palette-neutral-900); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-2: var(--gnm-palette-neutral-800); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-3: var(--gnm-palette-neutral-700); /* Slightly darker neutral paper background color */
+
+    /* LIGHT MODE */
+    --gnm-color-paper-0: var(--gnm-palette-neutral-000); /* The main background color for the app and choice of inverted text color */
+    --gnm-color-paper-1: var(--gnm-palette-neutral-015); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-2: var(--gnm-palette-neutral-025); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-3: var(--gnm-palette-neutral-050); /* Slightly darker neutral paper background color */
+
+    /* Isn't terrible. Less words, but also less clear */
+
+    /* NEXT STEPS, THINK MORE! */
+
+
+
+}
