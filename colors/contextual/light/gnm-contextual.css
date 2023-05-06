@@ -71,3 +71,58 @@
     --gnm-color-fill-button-success-disabled: var(--gnm-palette-positive-085);
 
 }
+
+//IMPROVEMENTS?
+
+:root {
+    --gnm-color-paper: var(--gnm-palette-neutral-000); /* The main background color for the app and choice of inverted text color */
+    --gnm-color-paper-hushed: var(--gnm-palette-neutral-015); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-subtle: var(--gnm-palette-neutral-025); /* Slightly darker neutral paper background color */
+    --gnm-color-paper-muted: var(--gnm-palette-neutral-050); /* Slightly darker neutral paper background color */
+
+    --gnm-color-paper-accent: var(--gnm-palette-neutral-000); /* The secondary background color for the app, typically a blue */
+    --gnm-color-paper-accent-hushed: var(--gnm-palette-primary-015); /* Slightly darker accent paper background color */
+    --gnm-color-paper-accent-subtle: var(--gnm-palette-primary-025); /* Slightly darker accent paper background color */
+    --gnm-color-paper-accent-muted: var(--gnm-palette-primary-050); /* Slightly darker accent paper background color */
+
+
+    --gnm-color-ink: var(--gnm-palette-neutral-600); /* Body and paragraph text */
+    --gnm-color-ink-light: var(--gnm-palette-neutral-400); /* Subheadlines, labels, secondary copy */
+    --gnm-color-ink-dark: var(--gnm-palette-neutral-800); /* Headlines */
+    --gnm-color-ink-subtle: var(--gnm-palette-neutral-085); /* Text and icons in an inactive (disabled) state */
+
+
+    --gnm-color-ink-error: var(--gnm-palette-negative-600); /* Body and paragraph text */
+    --gnm-color-ink-error-light: var(--gnm-palette-negative-400); /* Subheadlines, labels, secondary copy */
+    --gnm-color-ink-error-dark: var(--gnm-palette-negative-800); /* Headlines */
+    --gnm-color-ink-error-muted: var(--gnm-palette-negative-085); /* Text and icons in an inactive (disabled) state */
+
+
+    --gnm-color-ink-success: var(--gnm-palette-positive-600); /* Body and paragraph text */
+    --gnm-color-ink-success-light: var(--gnm-palette-positive-400); /* Subheadlines, labels, secondary copy */
+    --gnm-color-ink-success-dark: var(--gnm-palette-positive-800); /* Headlines */
+    --gnm-color-ink-success-muted: var(--gnm-palette-positive-085); /* Text and icons in an inactive (disabled) state */
+
+
+    --gnm-color-ink-info: var(--gnm-palette-info-600); /* Body and paragraph text */
+    --gnm-color-ink-info-light: var(--gnm-palette-info-400); /* Subheadlines, labels, secondary copy */
+    --gnm-color-ink-info-dark: var(--gnm-palette-info-800); /* Headlines */
+    --gnm-color-ink-info-muted: var(--gnm-palette-info-085); /* Text and icons in an inactive (disabled) state */
+
+
+    --gnm-color-ink-brand: var(--gnm-palette-primary-600); /* Brand body and paragraph text */
+    --gnm-color-ink-brand-light: var(--gnm-palette-primary-400); /* Brand subheadlines, labels, secondary copy */
+    --gnm-color-ink-brand-dark: var(--gnm-palette-primary-800); /* Headlines */
+    --gnm-color-ink-brand-muted: var(--gnm-palette-primary-085); /* Brand text and icons in an inactive (disabled) state */
+
+    --gnm-color-line: var(--gnm-palette-neutral-075); /* Neutral lines around components and separators */
+    --gnm-color-line-light: var(--gnm-palette-neutral-050); /* Neutral lines around components and separators */
+    --gnm-color-ine-dark: var(--gnm-palette-neutral-085); /* Neutral lines around components and separators */
+    --gnm-color-line-muted: var(--gnm-palette-neutral-025); /* Neutral lines around components and separators */
+
+
+
+
+
+
+
